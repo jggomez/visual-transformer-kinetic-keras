@@ -1,0 +1,25 @@
+[project]
+name = "eurosat-visual-transformer-keras"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "click>=8.3.3",
+    "google-cloud-aiplatform>=1.149.0",
+    "google-cloud-artifact-registry>=1.21.0",
+    "google-cloud-build>=3.36.0",
+    "google-cloud-container>=2.64.0",
+    "google-cloud-resource-manager>=1.17.0",
+    "google-cloud-secret-manager>=2.27.0",
+    "google-cloud-storage>=3.10.1",
+    "kagglehub>=1.0.0",
+    "keras>=3.14.0",
+    "keras-kinetic>=0.0.2",
+    "numpy>=2.4.4",
+    "pulumi>=3.232.0",
+    "pulumi-command>=1.2.1",
+    "pulumi-gcp>=9.21.0",
+    "pulumi-kubernetes>=4.30.0",
+    "tensorflow>=2.21.0",
+]
