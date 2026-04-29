@@ -71,5 +71,28 @@ kinetic jobs logs <JOB_ID> --follow
 - **Backend**: `tensorflow` (Keras 3)
 - **Container Mode**: `bundled` (automatic image building)
 
+### 4. Results
+
+Ultimately, the model achieved a highly robust validation accuracy of 92.83% (val_accuracy: 0.9283) with a validation loss of 0.2239 (loss: 0.2184 on the training set).
+
+<img width="552" height="263" alt="Screenshot 2026-04-29 at 1 06 36 p m" src="https://github.com/user-attachments/assets/c4369fcf-c8ad-4153-80db-ae7395a90f74" />
+
+Evaluating the detailed classification report on the 5,400 test images, the ViT achieved an overall macro and weighted average F1-score of 0.91 and 0.92, respectively. The model was remarkably precise at identifying distinct natural landscapes. For instance, the SeaLake class achieved a near-perfect F1-score of 0.98 with a precision of 1.00, while the Forest class followed closely with an impressive F1-score of 0.97. The Residential and HerbaceousVegetation categories also performed excellently, both scoring an F1-score of 0.93.
+
+<img width="1072" height="999" alt="confusion" src="https://github.com/user-attachments/assets/697c6b84-ae98-4ed9-8d86-0b63148fd781" />
+
+## References
+
+- P. Helber, B. Bischke, A. Dengel, and D. Borth, "Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification," IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
+- A. Dosovitskiy et al., "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale," in International Conference on Learning Representations (ICLR), 2020.
+- Keras Team, "keras-team/kinetic: Run ML workloads seamlessly on cloud TPUs and GPUs with a single Python decorator," GitHub, 2026. [Online]. Available: https://github.com/keras-team/kinetic.
+- Keras Team, "Architecture Overview — kinetic documentation," 2026. [Online]. Available: https://kinetic.readthedocs.io.
+- Keras Team, "Execution Modes — kinetic documentation," 2026. [Online]. Available: https://kinetic.readthedocs.io.
+- Keras Team, "Training Keras Models — kinetic documentation," 2026. [Online]. Available: https://kinetic.readthedocs.io.
+- Keras Team, "Accelerator Support — kinetic documentation," 2026. [Online]. Available: https://kinetic.readthedocs.io.
+- G. Dahiya et al., "EuroSat Dataset," Kaggle. [Online]. Available: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset.
+- Machine Intelligence and Deep Learning Lab, "ViT (Vision Transformer)," Medium. [Online]. Available: https://medium.com/machine-intelligence-and-deep-learning-lab/vit-vision-transformer-cc56c8071a20.
+- J. G. Gómez Torres, "multivariate-analysis-clustering-eurosat," GitHub, 2026. [Online]. Available: https://github.com/jggomez/multivariate-analysis-clustering-eurosat
+
 ---
-Developed by Devhack - Juan G Gomez
+Developed by the EuroSAT Visual Transformer Team.
