@@ -1,9 +1,14 @@
 # EuroSAT Vision Transformer (ViT) with Keras & Kinetic
 
+<img width="2816" height="1536" alt="Gemini_Generated_Image_hbwxx6hbwxx6hbwx" src="https://github.com/user-attachments/assets/0e231f7a-54dd-4b86-a121-00249a83ffa6" />
+
 This project implements a **Vision Transformer (ViT)** from scratch using **Keras 3** and **TensorFlow**, optimized for remote execution on Google Cloud Platform via **Kinetic**. The model is trained on the **EuroSAT** dataset (satellite imagery for land use and land cover classification).
 
 ### Notebook
 [eurosat-vit-keras](https://colab.research.google.com/drive/1LC0zhHQxWH3_c0U22EfNBugQ2Fhn8iZq?usp=sharing)
+
+## Blog Post
+[From Local Prototyping to GCP Cloud GPUs: Building a Land Cover Classifier with Kinetic Keras](https://jggomezt.medium.com/from-local-prototyping-to-gpus-in-the-gcp-cloud-creating-a-satellite-image-classification-system-e280fc91fe67)
 
 ## Architecture Overview
 
