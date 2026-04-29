@@ -2,6 +2,9 @@
 
 This project implements a **Vision Transformer (ViT)** from scratch using **Keras 3** and **TensorFlow**, optimized for remote execution on Google Cloud Platform via **Kinetic**. The model is trained on the **EuroSAT** dataset (satellite imagery for land use and land cover classification).
 
+### Notebook
+[eurosat-vit-keras](https://colab.research.google.com/drive/1LC0zhHQxWH3_c0U22EfNBugQ2Fhn8iZq?usp=sharing)
+
 ## Architecture Overview
 
 The model follows the original ViT architecture, where images are treated as sequences of patches.
